@@ -7,9 +7,19 @@
 //
 
 #import <Cocoa/Cocoa.h>
+#import <WebKit/WebKit.h>
 
 @interface BTAppDelegate : NSObject <NSApplicationDelegate>
 
 @property (assign) IBOutlet NSWindow *window;
+@property (assign) IBOutlet WebView *webView;
+@property (assign) IBOutlet NSLayoutConstraint *loadURLConstraint;
+@property (assign) IBOutlet NSView *loadURLView;
+
+- (IBAction)open:(id)sender;
+- (IBAction)openURL:(id)sender;
+- (IBAction)cancelURL:(id)sender;
+
+- (IBAction)loadURLAction:(id)sender;
 
 @end
