@@ -26,7 +26,7 @@ This is a unbelievable simple project. It is just a fullscreen web browser that 
 
 ## There's a binary here:
 
-[Download Argh 0.1.0](/binary/aargh-0.1.0.zip)
+[Download Argh 0.1.0](https://github.com/terhechte/aargh/raw/master/binary/aargh-0.1.0.zip)
 
 ## Todo
 - It would be nice to support the Apple Remote for forward / backward
